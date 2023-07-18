@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Courier New", monospace;
 }
@@ -14,30 +18,113 @@ body {
 .main-img {
     height: 375px;
     width: auto;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+
+.recipe-card {
+    border-style: solid;
+    padding-left: 20px;
+    margin: 200px 0;
+    padding-bottom: 40px;
+}
+
+.recipe-card h1 {
+    margin-top: 20px;
+}
+
+.recipe-card h2 {
+    padding-left: 115px;
+}
+
+.recipe-info {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 50px;
+}
+
+.description,
+.ingredients,
+.directions {
+    display: inline-block;
+    width: 450px;
+    vertical-align: top;
+    border-style: solid;
+    padding: 0 20px;
 }
 
 .asparagus {
-    background-color: #389600;
+    background-color: #6ee02c;
     color: #11500c;
+}
+
+.asparagus .recipe-card {
+    background-color: #389600;
+    border-color: #11500c;
+}
+
+.asparagus .description,
+.asparagus .ingredients,
+.asparagus .directions {
+    background-color: #48bd00;
+    border-color: #11500c;
 }
 
 .burger {
     background-color: #f6dc50;
-}
-
-.burger .title, .directions {
     color: #b0711e;
 }
 
+.burger .main-img {
+    margin-top: auto;
+}
+
+.burger .recipe-card {
+    border-color: #b0711e;
+    background-color: #eeca20;
+}
+
+.burger .description,
+.burger .ingredients,
+.burger .directions {
+    vertical-align: middle;
+    margin-top: -100px;
+}
+
 .burger .description{
-    color: #389600;
+    color: #348800;
+    height: 160px;
+    background-color: #66c92c;
 }
 
 .burger .ingredients {
     color: #925143;
+    height: 425px;
+    background-color: #ff735c;
+}
+
+.burger .directions {
+    color: #b0711e;
+    height: 565px;
+    margin-bottom: 30px;
+    background-color: #fda03e;
+}
+
+.recipe-card p,
+.recipe-card li,
+.recipe-card ul,
+.recipe-card ol {
+    padding-bottom: 10px;
 }
 
 .lasagna {
     background-color: #ffbd63;
     color: #ff7a24;
+}
+
+.lasagna .description,
+.lasagna .ingredients,
+.lasagna .directions {
+    background-color: #ffc676;
 }
