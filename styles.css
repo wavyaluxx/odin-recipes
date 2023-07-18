@@ -1,10 +1,29 @@
+body {
+    font-family: "Courier New", monospace;
+}
+
+.main-img {
+    height: 375px;
+    width: auto;
+}
+
 #asparagus {
     background-color: #389600;
-    font-family: "Courier New", monospace;
     color: #11500c;
 }
 
-#asparagus .asparagus-img {
-    height: 375px;
-    width: auto;
+#burger {
+    background-color: #f6dc50;
+}
+
+#burger #title, .directions {
+    color: #b0711e;
+}
+
+#burger .description{
+    color: #389600;
+}
+
+#burger .ingredients {
+    color: #925143;
 }
