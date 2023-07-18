@@ -16,7 +16,7 @@ body {
     background-color: #f6dc50;
 }
 
-#burger #title, .directions {
+#burger .title, .directions {
     color: #b0711e;
 }
 
@@ -26,4 +26,9 @@ body {
 
 #burger .ingredients {
     color: #925143;
+}
+
+#lasagna {
+    background-color: #ffbd63;
+    color: #ff7a24;
 }
