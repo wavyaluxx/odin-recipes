@@ -2,33 +2,42 @@ body {
     font-family: "Courier New", monospace;
 }
 
+.index {
+    background-color: #ffff81;
+    color: #c9ae00
+}
+
+.index li {
+    background-color: rgba(0,0,0,0);
+}
+
 .main-img {
     height: 375px;
     width: auto;
 }
 
-#asparagus {
+.asparagus {
     background-color: #389600;
     color: #11500c;
 }
 
-#burger {
+.burger {
     background-color: #f6dc50;
 }
 
-#burger .title, .directions {
+.burger .title, .directions {
     color: #b0711e;
 }
 
-#burger .description{
+.burger .description{
     color: #389600;
 }
 
-#burger .ingredients {
+.burger .ingredients {
     color: #925143;
 }
 
-#lasagna {
+.lasagna {
     background-color: #ffbd63;
     color: #ff7a24;
 }
