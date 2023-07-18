@@ -1,0 +1,10 @@
+#asparagus {
+    background-color: #389600;
+    font-family: "Courier New", monospace;
+    color: #11500c;
+}
+
+#asparagus .asparagus-img {
+    height: 375px;
+    width: auto;
+}
