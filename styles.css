@@ -11,8 +11,23 @@ body {
     color: #c9ae00
 }
 
+.index .list-photo {
+    height: 100px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.index a {
+    display: inline-block;
+    margin-left: 50px;
+}
+
 .index li {
-    background-color: rgba(0,0,0,0);
+    border-style: solid;
+    margin: 20px 0;
+    padding: 10px;
+    width: 500px;
+    height: auto;
 }
 
 .main-img {
@@ -26,7 +41,7 @@ body {
 .recipe-card {
     border-style: solid;
     padding-left: 20px;
-    margin: 200px 0;
+    margin: 25px 0;
     padding-bottom: 40px;
 }
 
